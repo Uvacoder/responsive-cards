@@ -1,24 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import Header from "./components/header/header";
+import Card from "./components/card/card";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header title="My Responsive Webpage!" />
+      <div className="card__holder">
+        <Card
+          description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
+          title="Some Title"
+        />
+        <Card
+          description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
+          title="Some Title"
+        />
+        <Card
+          description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
+          title="Some Title"
+        />
+        <Card
+          description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
+          title="Some Title"
+        />
+        <Card
+          description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
+          title="Some Title"
+        />
+        <Card
+          description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
+          title="Some Title"
+        />
+        <Card
+          description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
+          title="Some Title"
+        />
+        <Card
+          description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
+          title="Some Title"
+        />
+        <Card
+          description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
+          title="Some Title"
+        />
+      </div>
     </div>
   );
 }
