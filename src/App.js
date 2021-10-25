@@ -5,7 +5,7 @@ import Card from "./components/card/card";
 function App() {
   return (
     <div className="App">
-      <Header title="My Responsive Webpage!" />
+      <Header title="My Responsive Cards Webpage!" />
       <div className="card__holder">
         <Card
           description="Enim duis non anim non cillum eiusmod irure dolor amet est consectetur elit cupidatat minim."
